@@ -1,1 +1,7 @@
 body { padding-top: 70px; }
+.jumbotron {
+  color: white;
+}
+.bar-bot {
+	margin-top: 200px;
+}

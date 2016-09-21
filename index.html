@@ -7,7 +7,6 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<title>Airbnb bootstrap</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -15,7 +14,7 @@
 
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
+    <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">
           <img alt="Brand" src="http://placehold.it/100x40">
@@ -36,20 +35,73 @@
     </div>
   </nav>
 
+  <div style='background-image:url("https://unsplash.it/1200/600?image=975")' class="jumbotron">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-center">Vivez las-bas</h1>
+        <div class="row">
+          <div class="col-xs-12">
+            <h3 class="text-center">Réservez des logements auprès d'hôtes locaux dans plus de 191 pays et vivez là-bas, comme chez vous.
+            </h3>  
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <p class="text-center"><i class="fa fa-play-circle fa-4x  "></i></p>     
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-group bar-bot">
+        <form class="navbar-form form-inline">
+          <div class="pager">
+            <ul class="inline-block">
+              <li>
+                <input type="text" class="form-control" placeholder="Où ?" aria-describedby="sizing-addon2">
+              </li>
+              <li>
+                <input type="text" class="form-control" placeholder="Arriver" aria-describedby="sizing-addon2">
+              </li>
+              <li>
+                <input type="text" class="form-control" placeholder="Départ" aria-describedby="sizing-addon2">
+              </li>
+              <li>
+                <select class="selectpicker form-control">
+                  <option>1 voyageur</option>
+                  <option>2 voyageurs</option>
+                  <option>3 voyageurs</option>
+                  <option>4 voyageurs</option>
+                  <option>5 voyageurs</option>
+                  <option>6 voyageurs</option>
+                </select>
+              </li>
+              <li>
+                <button type="button" class="btn btn-danger">Rechercher</button>
+              </li>
+            </ul>
+          </div>
+        </form>
 
-  <!-- *************** Partie du milieu (Laure) ***************** -->
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
-  <div class=container>
-   <div class="row">
-    <div class="col-md-8">	
-     <img src="http://placehold.it/700x350">
-   </div>
-   <div class="col-md-4">
-     <h2><strong>Ouvrez la porte à un voyageur et à une nouvelle vie</strong></h2>
-     <h4>Gagnez de l'argent en accueillant des voyageurs.</h4>
-     <a class="btn btn-default btn-block btn-primary btn-lg" href="#" role="button">Estimer mes revenus</a>
-   </div>
+
+<!-- *************** Partie du milieu (Laure) ***************** -->
+
+<div class=container>
+ <div class="row">
+  <div class="col-md-8">	
+   <img src="http://placehold.it/700x350">
  </div>
+ <div class="col-md-4">
+   <h2><strong>Ouvrez la porte à un voyageur et à une nouvelle vie</strong></h2>
+   <h4>Gagnez de l'argent en accueillant des voyageurs.</h4>
+   <a class="btn btn-default btn-block btn-primary btn-lg" href="#" role="button">Estimer mes revenus</a>
+ </div>
+</div>
 </div>
 
 <div class=container>
